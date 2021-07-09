@@ -14,6 +14,7 @@ namespace CommitteeInfoContract
         public string Telegram;
         public string Twitter;
         public string Description;
+        public string Logo;
     }
 
     public class KeyValue

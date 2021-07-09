@@ -24,7 +24,7 @@ namespace CommitteeInfoContract
         private static byte[] GetCommitteeKey(UInt160 sender) => CommitteeKeyPrefix.Concat((byte[])sender);
 
 
-        public static bool SetInfo(UInt160 sender, string name, string location, string website, string email, string github, string telegram, string twitter, string description)
+        public static bool SetInfo(UInt160 sender, string name, string location, string website, string email, string github, string telegram, string twitter, string description, string logo)
         {
             Assert(Runtime.CheckWitness(sender), "Forbidden");
 
@@ -51,7 +51,8 @@ namespace CommitteeInfoContract
                 GitHub = github,
                 Telegram = telegram,
                 Twitter = twitter,
-                Description = description
+                Description = description,
+                Logo = logo,
             };
             StoragePut(GetCommitteeKey(sender), StdLib.Serialize(entity));
             return true;
