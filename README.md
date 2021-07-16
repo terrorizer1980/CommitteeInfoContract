@@ -42,7 +42,7 @@ In the Neo-GUI Invoke Contract page, enter the contract script hash and select t
 
 Use the CLI command [invoke](https://docs.neo.org/docs/en-us/node/cli/cli.html#invoke):
 
-invoke <scriptHash> <operation> [contractParameters=null] [sender=null] [signerAccounts=null][maxGas]
+`invoke <scriptHash> <operation> [contractParameters=null] [sender=null] [signerAccounts=null][maxGas]`
   
 #### Example
 
