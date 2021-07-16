@@ -10,8 +10,7 @@
 ------
 ## Update Committee Info
 
-### Method Name:
-**setinfo**
+### Method Name: **setInfo**
 
 ### Parameters
 
@@ -29,9 +28,9 @@
 | logo | String | Committee logo's FS ID |
 
 ### Invoke by GUI
-
-[gui1]()
-[gui2]()
+![001](https://user-images.githubusercontent.com/7391819/125911981-89c12f1d-2a12-4c06-9fff-0454eaad63ff.png)
+![002](https://user-images.githubusercontent.com/7391819/125911998-32a2cfc0-abee-4a87-99a3-a6ea7f81d87a.png)
+![003](https://user-images.githubusercontent.com/7391819/125912023-04494f31-0ace-47ea-a5d5-98660218d64f.png)
 
 ### Invoke by neo-cli
 
