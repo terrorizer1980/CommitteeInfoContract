@@ -19,7 +19,7 @@ Updates the committee information
 
 | ParameterName | Type | Description |
 | ---- | ---- | ---- |
-| sender | Hash160 | Committee address, require sign |
+| sender | Hash160 | Committee address. Signature is required |
 | name | String | Committee name |
 | location | String | Committee location |
 | website | String | Committee website url |
