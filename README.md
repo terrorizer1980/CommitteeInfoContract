@@ -44,7 +44,8 @@ Use the CLI command [invoke](https://docs.neo.org/docs/en-us/node/cli/cli.html#i
 
 `invoke <scriptHash> <operation> [contractParameters=null] [sender=null] [signerAccounts=null][maxGas]`
 
-**contractParameters cannot contain whitespace, please use "ByteArray" type and base64 string value to input long string. **
+
+**contractParameters cannot contain whitespace, please use "ByteArray" type and base64 string value to input long string.**
   
 #### Example
 
