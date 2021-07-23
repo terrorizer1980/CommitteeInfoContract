@@ -6,7 +6,7 @@ This contract is used to add candidates relevant information, such as the candid
 
 * **mainnet:** pending
 
-* **testnet:** 0x8eb75ceff1e3b28a2bfbb1f4d0511647de9a1c1d
+* **testnet:** 0xe922910b49305ad00240cdd104fda6574e2f4d38
 
 
 ## Method Name: **setInfo**
@@ -50,7 +50,7 @@ Use the CLI command [invoke](https://docs.neo.org/docs/en-us/node/cli/cli.html#i
 #### Example
 
 ```
-invoke 0x8eb75ceff1e3b28a2bfbb1f4d0511647de9a1c1d setInfo [{"type":"Hash160","value":"0x429688538c267d5da7a03fbe7b8e4cf45d6e9826"},{"type":"String","value":"MyName"},{"type":"String","value":"MyLocation"},{"type":"String","value":"http://mysite.com"},{"type":"String","value":"myemail@mail.com"},{"type":"String","value":"mygithub"},{"type":"String","value":"mytelegram"},{"type":"String","value":"mytwitter"},{"type":"ByteArray","value":"VGhpcyBpcyBhbiBleGFtcGxlLg=="},{"type":"String","value":"mylogoID"}] NPS3U9PduobRCai5ZUdK2P3Y8RjwzMVfSg NPS3U9PduobRCai5ZUdK2P3Y8RjwzMVfSg
+invoke 0xe922910b49305ad00240cdd104fda6574e2f4d38 setInfo [{"type":"Hash160","value":"0x429688538c267d5da7a03fbe7b8e4cf45d6e9826"},{"type":"String","value":"MyName"},{"type":"String","value":"MyLocation"},{"type":"String","value":"http://mysite.com"},{"type":"String","value":"myemail@mail.com"},{"type":"String","value":"mygithub"},{"type":"String","value":"mytelegram"},{"type":"String","value":"mytwitter"},{"type":"ByteArray","value":"VGhpcyBpcyBhbiBleGFtcGxlLg=="},{"type":"String","value":"mylogoID"}] NPS3U9PduobRCai5ZUdK2P3Y8RjwzMVfSg NPS3U9PduobRCai5ZUdK2P3Y8RjwzMVfSg
 
 
 ```
