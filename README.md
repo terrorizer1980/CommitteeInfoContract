@@ -40,6 +40,13 @@ In the Neo-GUI Invoke Contract page, enter the contract script hash and select t
 
 ### Invoking by Neo-CLI
 
+> [!Note]
+>
+> - If you choose invoking contract by CLI, you can't add blank in a single param. Otherwise, it will be regarded as two param. Please try `ByteArray` as value type for any blank needed situation.
+> - Example: {"type":"ByteArray","value":"QlVJTERJTkcgQkxPQ0tTIEZPUiBUSEUgTkVYVCBHRU5FUkFUSU9OIElOVEVSTkVU"}
+> - Official converter page: https://neo.org/converter/index (try to input String and get Base64 encoding)
+
+
 Use the CLI command [invoke](https://docs.neo.org/docs/en-us/node/cli/cli.html#invoke):
 
 `invoke <scriptHash> <operation> [contractParameters=null] [sender=null] [signerAccounts=null][maxGas]`
