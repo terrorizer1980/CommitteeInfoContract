@@ -12,9 +12,21 @@ namespace CommitteeInfoContract
 
 
 #warning 检查此处的 Admin 地址是否为最新地址
-        [InitialValue("NPS3U9PduobRCai5ZUdK2P3Y8RjwzMVfSg", Neo.SmartContract.ContractParameterType.Hash160)]
-        static readonly UInt160 superAdmin = default;
+        //[InitialValue("NPS3U9PduobRCai5ZUdK2P3Y8RjwzMVfSg", Neo.SmartContract.ContractParameterType.Hash160)]
+        //static readonly UInt160 superAdmin = default;
         const string AdminKey = nameof(superAdmin);
+        #region MainNet
+
+        [InitialValue("NdSbtzKb9uR9waVGfPq3JqiNyMg59Umpxb", Neo.SmartContract.ContractParameterType.Hash160)]
+        static readonly UInt160 superAdmin = default;
+        #endregion
+
+        #region TestNet
+
+        //[InitialValue("NWPrismdD6mEmyGSxJNATLaMV4uNr6C8Ej", Neo.SmartContract.ContractParameterType.Hash160)]
+        //static readonly UInt160 superAdmin = default;
+
+        #endregion
 
         // When this contract address is included in the transaction signature,
         // this method will be triggered as a VerificationTrigger to verify that the signature is correct.
