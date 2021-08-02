@@ -4,7 +4,7 @@ This contract is used to add candidates relevant information, such as the candid
 
 ## Contract Hash
 
-* **mainnet:** pending
+* **mainnet:** 0xb776afb6ad0c11565e70f8ee1dd898da43e51be1
 
 * **testnet:** 0xe922910b49305ad00240cdd104fda6574e2f4d38
 
